@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Welcome to KokoaTalk Clone</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+            <!-- WIFI Icon -->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KakaoTalk Clone</h1>
+        <p class="welcome-header__text">
+            If you have a Kakao Account, log in with your email or phone number
+        </p>
+
+        <form id="login-form">
+            <input class="login-form__email" type="text" placeholder="Email or phone holder">
+            <input class="login-form__password" type="password" name="password" placeholder="Password">
+            <input class="login-form__submit" type="submit" value="Log In" />
+            <a href="#">Find Kokoa Account or Password</a>
+        </form>
+
+    </header>
+    <script src="https://kit.fontawesome.com/8e9f8244ac.js" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
